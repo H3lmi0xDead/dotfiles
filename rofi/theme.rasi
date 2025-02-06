@@ -1,0 +1,37 @@
+@import "~/.cache/wal/colors-rofi.rasi"
+
+configuration {
+    show-icons: true;
+}
+
+window {
+    transparency: "real";
+    background-color: @background;
+    border: 2;
+    border-color: @color1;
+}
+
+mainbox {
+    background-color: @background;
+}
+
+listview {
+    background-color: @background;
+    fixed-height: 0;
+}
+
+entry {
+    background-color: @color0;
+    foreground-color: @color15;
+}
+
+element {
+    background-color: @color0;
+    foreground-color: @color15;
+}
+
+element selected {
+    background-color: @color1;
+    foreground-color: @color15;
+}
+

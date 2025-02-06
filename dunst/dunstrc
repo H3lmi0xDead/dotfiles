@@ -1,0 +1,27 @@
+[global]
+    # Font settings
+    font = Monospace 10
+    geometry = 300x30+10+10
+    notification_height = 30
+
+    # Transparency (use RGBA values)
+    transparency = true
+    background = #282a36
+    foreground = #f8f8f2
+
+    # Colors
+    urgent_background = #ff5555
+    urgent_foreground = #282a36
+
+    # Timeout settings
+    default_timeout = 5
+    urgent_timeout = 0
+
+    # Position on the screen
+    position = top-right
+
+# Override for specific apps
+[application]
+    [notify-send]
+        # Optional customizations here for notify-send
+
