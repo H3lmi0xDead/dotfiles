@@ -1,0 +1,10 @@
+[Default Applications]
+application/octet-stream=nvim.desktop
+text/plain=nvim.desktop
+
+[Added Associations]
+application/octet-stream=nvim.desktop;
+image/jpeg=org.xfce.ristretto.desktop;gimp.desktop;mypaint.desktop;
+image/png=nsxiv.desktop;mypaint.desktop;
+application/x-shellscript=nvim.desktop;
+text/plain=nvim.desktop;io.neovim.nvim.desktop;userapp-nvim-wrapper-XCJF12.desktop;userapp-init.lua-EY1V12.desktop;

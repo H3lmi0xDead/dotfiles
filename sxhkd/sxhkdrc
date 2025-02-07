@@ -1,0 +1,187 @@
+applications (Your Custom Keybinds)
+
+super + shift + d
+    exec --no-startup-id discord
+
+super + shift + z
+    exec --no-startup-id firefox
+
+super + shift + s
+    exec --no-startup-id flatpak run com.spotify.Client
+
+super + shift + o
+    exec --no-startup-id flatpak run md.obsidian.Obsidian
+
+super + shift + t
+    exec --no-startup-id telegram-desktop
+
+# Terminal
+super + Return
+    exec --no-startup-id ghostty
+
+# Application Launcher
+super + d
+    exec --no-startup-id wofi --show run
+
+# Close Window
+super + q
+    killactive
+
+# Exit Hyprland
+super + shift + e
+    exit
+
+# Open File Explorer
+super + e
+    exec --no-startup-id thunar
+
+# Window Management
+super + f
+    fullscreen
+
+super + space
+    togglefloating
+
+super + p
+    pseudo # Dwindle layout
+
+super + v
+    togglesplit # Dwindle layout
+
+# Move Focus (Vim Keys)
+super + h
+    movefocus left
+
+super + l
+    movefocus right
+
+super + k
+    movefocus up
+
+super + j
+    movefocus down
+
+# Move focus using numpad keys
+KP_Left
+    movefocus left  # Left
+
+KP_Right
+    movefocus right # Right
+
+KP_Up
+    movefocus up    # Up
+
+KP_Down
+    movefocus down  # Down
+
+# Resize the active window to specific dimensions
+super + ctrl + 1
+    resizeactive 800 600  # Resize to 800x600
+
+super + ctrl + 2
+    resizeactive 1024 768 # Resize to 1024x768
+
+# Move Windows (Vim Keys)
+super + shift + h
+    movewindow left
+
+super + shift + l
+    movewindow right
+
+super + shift + k
+    movewindow up
+
+super + shift + j
+    movewindow down
+
+# Resize Windows
+super + ctrl + h
+    resizeactive -20 0
+
+super + ctrl + l
+    resizeactive 20 0
+
+super + ctrl + k
+    resizeactive 0 -20
+
+super + ctrl + j
+    resizeactive 0 20
+
+# Workspaces
+super + 1
+    workspace 1
+
+super + 2
+    workspace 2
+
+super + 3
+    workspace 3
+
+super + 4
+    workspace 4
+
+super + 5
+    workspace 5
+
+super + 6
+    workspace 6
+
+super + 7
+    workspace 7
+
+super + 8
+    workspace 8
+
+super + 9
+    workspace 9
+
+super + 0
+    workspace 10
+
+# Move Windows to Workspaces
+super + shift + 1
+    movetoworkspace 1
+
+super + shift + 2
+    movetoworkspace 2
+
+super + shift + 3
+    movetoworkspace 3
+
+super + shift + 4
+    movetoworkspace 4
+
+super + shift + 5
+    movetoworkspace 5
+
+super + shift + 6
+    movetoworkspace 6
+
+super + shift + 7
+    movetoworkspace 7
+
+super + shift + 8
+    movetoworkspace 8
+
+super + shift + 9
+    movetoworkspace 9
+
+super + shift + 0
+    movetoworkspace 10
+
+# Screenshots
+Print
+    exec --no-startup-id grim -g "$(slurp)" - | wl-copy
+
+shift + Print
+    exec --no-startup-id grim -g "$(slurp)" ~/Documents/screenshot-$(date +'%Y-%m-%d-%H%M%S').png
+
+# Lock Screen
+super + shift + ctrl + l
+    exec --no-startup-id swaylock
+
+# Reload Hyprland Configuration
+super + shift + r
+   exec --no-startup-id bspc wm -r
+    
+
