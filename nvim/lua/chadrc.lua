@@ -6,7 +6,7 @@
 local M = {}
 
 M.base46 = {
-	theme = "gruvbox",
+	theme = "bearded-arc",
 
 	-- hl_override = {
 	-- 	Comment = { italic = true },
@@ -22,6 +22,3 @@ M.base46 = {
 --}
 
 return M
-
-
-
