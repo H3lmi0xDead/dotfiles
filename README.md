@@ -1,2 +1,3 @@
 # dotfiles
-My dotfiles on void linux
+My void linux dotfiles
+
